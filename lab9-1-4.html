@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> to Slide Down And Slide Up Effects</title>
+    <script src="jquery-1.11.3.min.js"> </script>
+    <script> $(document).ready(function(){
+$("#title").click(function(){
+    $("#panel").slideToggle("slow");
+}); });
+</script>
+<style type="text/css"> #panel,#title { padding:10px; color:blue; text-align:center; background-color:red;
+} #panel { padding:50px; display:none; } </style>
+</head>
+
+<body>
+<div id="title">Click to slide the panel down or up</div>
+<div id="panel">Hello world!</div>
+
+
+</body>
+</html>

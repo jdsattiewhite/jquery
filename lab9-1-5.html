@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Animated Effects</title>
+       <script src="jquery-1.11.3.min.js"> </script>
+    <script> $(document).ready(function(){
+$("button#demo").click(function(){
+    $("div#demo").animate({left:"300px",opacity:"0.5"},"slow");
+    $("div#demo").animate({fontSize:"4em"},"slow");
+}); });
+</script>
+</head>
+
+<body>
+<button id="demo">Start Animation</button><br><br>
+<div id="demo" style="background:orange; height:100px; width:300px; position:relative;"> ITT Tech</div>
+
+
+</body>
+</html>
